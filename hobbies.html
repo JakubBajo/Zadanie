@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Záľuby</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Naše Záľuby</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Domov</a></li>
+            <li><a href="hobbies.html">Záľuby</a></li>
+            <li><a href="changes.html">Sekcia Zmena</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container content">
+    <div class="hobby-container">
+        <div class="hobby-card">
+            <div class="card">
+                <div class="card-content">
+                    <img src="fotka.jpeg" alt="Jakub" class="hobby-image">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="label">Meno:</span> <strong class="highlight">Jakub</strong></h5>
+                        <h5 class="card-title"><span class="label">Priezvisko:</span> <strong class="highlight">Bajo</strong></h5>
+                        <button class="show-more" onclick="toggleDetails('hobby1');">Show more...</button>
+                        <div class="hobby-details" id="hobby1">
+                            <h6><strong>Záľuby:</strong></h6>
+                            <p>Cyklistika</p>
+                            <p>Turistika</p>
+                            <p>Posilka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hobby-card">
+            <div class="card">
+                <div class="card-content">
+                    <img src="path_to_image/anna.jpg" alt="Anna" class="hobby-image">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="label">Meno:</span> <strong class="highlight">Anna</strong></h5>
+                        <h5 class="card-title"><span class="label">Priezvisko:</span> <strong class="highlight">Nováková</strong></h5>
+                        <button class="show-more" onclick="toggleDetails('hobby2');">Show more...</button>
+                        <div class="hobby-details" id="hobby2">
+                            <h6><strong>Záľuby:</strong></h6>
+                            <p>Plávanie</p>
+                            <p>Maľovanie</p>
+                            <p>Hudba</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hobby-card">
+            <div class="card">
+                <div class="card-content">
+                    <img src="path_to_image/peter.jpg" alt="Peter" class="hobby-image">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="label">Meno:</span> <strong class="highlight">Peter</strong></h5>
+                        <h5 class="card-title"><span class="label">Priezvisko:</span> <strong class="highlight">Kováč</strong></h5>
+                        <button class="show-more" onclick="toggleDetails('hobby3');">Show more...</button>
+                        <div class="hobby-details" id="hobby3">
+                            <h6><strong>Záľuby:</strong></h6>
+                            <p>Šport</p>
+                            <p>Fotografia</p>
+                            <p>Varenie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hobby-card">
+            <div class="card">
+                <div class="card-content">
+                    <img src="path_to_image/maria.jpg" alt="Maria" class="hobby-image">
+                    <div class="card-body">
+                        <h5 class="card-title"><span class="label">Meno:</span> <strong class="highlight">Maria</strong></h5>
+                        <h5 class="card-title"><span class="label">Priezvisko:</span> <strong class="highlight">Šimková</strong></h5>
+                        <button class="show-more" onclick="toggleDetails('hobby4');">Show more...</button>
+                        <div class="hobby-details" id="hobby4">
+                            <h6><strong>Záľuby:</strong></h6>
+                            <p>Jazda na bicykli</p>
+                            <p>Písanie</p>
+                            <p>Turistika</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
